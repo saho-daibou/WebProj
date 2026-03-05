@@ -18,6 +18,10 @@
 		<action name="LoginAction" class="com.diworksdev.webproj.action.LoginAction" method="execute">
 			<result name="success">login.jsp</result>
 		</action>
+		
+		<action name="InquiryAction" class="com.diworksdev.webproj.action.InquiryAction" method="execute">
+			<result name="success">inquiry.jsp</result>
+		</action>
 	</package>
 </struts>
 
